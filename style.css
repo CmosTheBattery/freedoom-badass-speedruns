@@ -1,8 +1,33 @@
 body {
+  background-position: center center;
+  background-size: cover;
   background-image: url('TITLEPIC.png');
+  text-align: center;
   font-family: Comic Sans MS, sans-serif;
   font-size: 24px;
   text-shadow: 2px 2px 2px black;  
   background-color: black;  
   color: white;
+}
+ul
+{
+  list-style-type: none;
+}
+li {
+  margin: 10px 0;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 240;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
